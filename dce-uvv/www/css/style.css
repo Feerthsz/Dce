@@ -1,0 +1,77 @@
+.custom-menu ion-list .list{
+    height: 100%;
+    background: #f2f2f2;
+}
+
+.custom-menu ion-item.item:first-child {
+    height: 125px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    background-image: url(../img/t.PNG);
+    background-size: auto 140%;
+    background-position: 120px -25px;
+    background-repeat: no-repeat;
+    background-color: rgba(35,72,133,1);
+    padding: 25px 10px;
+}
+
+.custom-menu ion-item.item:first-child .row{
+    border: 3px solid rgba(0,0,0,0);
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: rgba(255,255,255,0.8);
+    -webkit-box-shadow: 0px 5px 30px 2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 5px 30px 2px rgba(0,0,0,0.66);
+    box-shadow: 0px 5px 30px 2px rgba(0,0,0,0.66);
+}
+
+.custom-menu ion-item.item:first-child .row span{
+    color: #000000;
+}
+
+.custom-menu * {
+    color: gray;
+    font-weight: 600;
+    border: none;
+}
+.custom-menu .item-content, .custom-menu .item {
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.list.produtos li, .list.parcerias li{
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: 2px solid #cecece;
+}
+
+.list.parcerias li h2{
+    font-weight: 500;
+    font-size: 5vw;
+}
+
+.list.produtos li img, .list.parcerias li img{
+    width: 100%;
+}
+
+.list.parcerias li img{
+    margin-bottom: 4px;
+}
+
+.list.parcerias li i{
+    position: absolute;
+    margin: -17px 0px 0px -29px;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(0,0,0,1);
+    padding: 5px 15px;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.list.parcerias li p {
+    white-space: normal;
+    text-align: justify;
+}
+

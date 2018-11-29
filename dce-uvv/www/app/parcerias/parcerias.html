@@ -1,0 +1,13 @@
+<ion-view view-title="Parcerias">
+    <ion-content>
+        <ul class="list parcerias">
+            <li class="item " ng-repeat="parceria in vm.parcerias">
+                <img ng-src="{{parceria.CaminhoLogo}}" alt="parceria"> 
+                <i class="{{parceria.Tipo}}"></i>              
+                <h2>{{parceria.Nome}}</h2>
+                <hr>
+                <p>{{parceria.Descricao}}</p>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
